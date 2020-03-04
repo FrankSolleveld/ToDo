@@ -1,6 +1,8 @@
 <template>
-    <div>
+    <div class="container mx-auto">
+    <div class="flex flex-col items-center">
        <ListItem v-for="(item, index) in todos" :key="index" :item="item"/>
+    </div>
     </div>
 </template>
 
